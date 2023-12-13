@@ -166,7 +166,7 @@ Step-11: Once the Jenkins CI - Project runs successfully then just go to the:
 <img width="957" alt="nexus-artifacts" src="https://github.com/Shahnawaz-yousuf/CI_JENKINS_PIPELINE_PROJECT/assets/146080117/6d0b9c0e-7cde-4ab0-9830-53f715f06159">
 
 
-<<<<<<<<<<==========CONGRATULATIONS YOU HAVE SUCCESSFULLY COMPLETED THE PROJECT==============>>>>>>>>>>
+<<<<<======CONGRATULATIONS YOU HAVE SUCCESSFULLY COMPLETED THE PROJECT=====>>>>>>
 
 
 
