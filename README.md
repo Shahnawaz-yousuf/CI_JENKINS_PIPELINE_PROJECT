@@ -84,7 +84,7 @@ Step-5: Jenkins Integration with SonarQube:
     (b) Token Generate ==> Go to SonarQube GUI ==> admin ==> my account ==> security ==> generate token ==> jenkins ==> generate ==> copy 
 
     (c) Go to JENKINS Dashboard ==> Manage Jenkins ==> System ==> SonarQube servers ==> Click on:Environment variables ==> Name:sonar ==> Server URL ==> http://Private IP 
-        (SonarQube-server):9000 ==> Add jenkin ==> kind ==> secret text ==> paste token ==> token id:My_sonar_token ==> Description: My_sonar_Token ==> Add & save.
+        (SonarQube-server):9000 ==> Add jenkin ==> kind ==> secret text ==> paste token ==> token id:Mysonartoken ==> Description: MysonarToken ==> Add & save.
 
     (d) Build Timestamp ==> Pattern ==> remove: yy, ss & z ==> Apply & save.
 
@@ -102,12 +102,12 @@ Step-6: First crosscheck the Jenkins credentials: If there is SonarQube credenti
 
 Step-7: Now Go to SonarQube GUI :
    
-     (a) Go to Quality Gate ==> Create ==> Name:vprofile-QG, save-add-condition- on overall code- -bugs-100 save
+     (a) Go to Quality Gate ==> Create ==> Name:vprofile-QG, save-add-condition- on overall code- -bugs-100 sav
 
-     (b) Go to SonarQube Projects ==> Project settings ==> Quality Gate ==> select the quality gate:vprofile-QG ==> Project settings ==> select: webhook ==> create ==> 
+     (b) Go to Quality Gate ==> create == Name:vprofile-QG ==> 
+
+     (c) Go to SonarQube Projects ==> select project ==> Project settings ==> Quality Gate ==> select the quality gate:vprofile-QG ==> Project settings ==> select: webhook ==> create ==> 
          Name: jenkin-ci-webhook ==> Jenkins URL: http://http://jenkin public ip/sonarqube-webhook => create
-
-     (c) Go to Quality Gate ==> create == Name:vprofile-QG ==> 
 
    
 ### Nexus GUI setup:
